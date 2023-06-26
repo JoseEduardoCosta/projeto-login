@@ -1,0 +1,64 @@
+@charset "UTF-8";
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+html,
+body {
+    background-color: #793EB2;
+    height: 100vh;
+    width: 100vw;
+}
+
+
+main {
+    width: 75vw;
+    background-color: white;
+    margin: auto;
+    border-radius: 10px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    box-shadow: 0 5px 15px black;
+}
+
+div#imagem {
+    background-image: url('../imagens/login.jpg');
+    background-size: cover;
+    height: 200px;
+    border-radius: 10px 10px 0 0;
+}
+
+div#form {
+    text-align: center;
+    margin: 5px;
+}
+
+div h1,
+p {
+    padding: 10px;
+}
+
+div.campo {
+    background-color: #3B1E78;
+    display: inline-block;
+    padding: 5px;
+    margin-bottom: 2px;
+    border-radius: 10px;
+    color: white;
+
+}
+
+input {
+    border: 1px solid #3B1E78;
+}
+
+
+#btn {
+    margin-top: 10px;
+}
