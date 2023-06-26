@@ -54,6 +54,22 @@ div.campo {
 
 }
 
+span {
+    padding-top: 5px;
+}
+
+input.caixa {
+    height: 30px;
+    width: 250px;
+    vertical-align: top;
+    border-radius: 10px;
+}
+
+::placeholder {
+    color: grey;
+    padding-left: 4px;
+}
+
 
 #btn {
     margin-top: 10px;

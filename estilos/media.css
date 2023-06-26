@@ -10,7 +10,7 @@
 
     main {
         width: 700px;
-        height: 250px;
+        height: 280px;
         display: block;
     }
 
@@ -50,6 +50,7 @@
     div#imagem {
         width: 48%;
         height: 100%;
+        background-position: right center;
         border-radius: 0 10px 10px 0;
         display: inline-block;
         position: absolute;
@@ -62,7 +63,7 @@
         display: inline-block;
         position: absolute;
         left: 0;
-        top: 10%;
+        top: 5%;
 
     }
 }
