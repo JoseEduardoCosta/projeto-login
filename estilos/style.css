@@ -73,4 +73,16 @@ input.caixa {
 
 #btn {
     margin-top: 10px;
+    width: 70px;
+    padding: 5px;
+    background-color: #793EB2;
+    color: white;
+    border: 1px solid black;
+    border-radius: 10px;
+
+}
+
+#btn:hover {
+    transform: translate(-2px, -2px);
+    box-shadow: 3px 3px 5px black;
 }
