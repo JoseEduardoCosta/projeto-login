@@ -30,6 +30,10 @@
 
     }
 
+    input.caixa {
+        width: 250px;
+    }
+
 }
 
 @media screen and (min-width:1023px) {
@@ -66,4 +70,5 @@
         top: 5%;
 
     }
+
 }
